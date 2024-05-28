@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Showcard", sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--white);
+  }
+  
+@font-face {
+  font-family: "Showcard";
+  src: url("/assets/fonts/Showcard.ttf");
+}
+  
+:root{
+  --red: #B91E1F;
+  --dark-orange: #F04D24;
+  --orange: #F27223;
+  --light-orange: #F29121;
+  --grey: #707070;
+  --white: #FFFFFF;
+}
+
+#nav{
+  background-color: var(--red);
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+#nav nav{
+  max-width: 1080px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav img{
+  max-height: 70px;
+  height: 100%;
+}
+
+#nav .burning-logo{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#nav ul{
+  max-width: 365px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
