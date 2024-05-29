@@ -1,12 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Showcard", sans-serif;
-    list-style-type: none;
-    text-decoration: none;
-    color: var(--white);
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Showcard", sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--white);
+  font-size: 23px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+
   
 @font-face {
   font-family: "Showcard";
@@ -22,14 +27,49 @@
   --white: #FFFFFF;
 }
 
-#nav{
-  background-color: var(--red);
-  padding: 35px;
+/* container / indhold / btn*/
+#indhold{
+  height: 1450px;
+  padding: 45px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
   display: flex;
   justify-content: center;
 }
 
-#nav nav{
+.container{
+  max-width: 1080px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.72);
+  border-radius: 26px;
+  box-shadow: 7px 7px 13px rgba(0, 0, 0, 0.16);
+  position: relative;
+}
+
+.btn{
+  background-color: var(--red);
+  border-radius: 32px;
+  width: 193px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ^container / indhold^ */
+
+
+#nav,#footer{
+  background-color: var(--red);
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid var(--grey);
+}
+
+#nav nav,#footer footer{
   max-width: 1080px;
   width: 100%;
   display: flex;
@@ -37,22 +77,35 @@
   align-items: center;
 }
 
-#nav img{
+#nav img,#footer img{
   max-height: 70px;
   height: 100%;
 }
 
-#nav .burning-logo{
+#nav .burning-logo,#footer .burning-logo{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
 
-#nav ul{
-  max-width: 365px;
+#nav ul,#footer ul{
   width: 100%;
   display: flex;
   justify-content: space-between;
+}#nav ul{
+  max-width: 365px;
+}#footer ul{
+  max-width: 277px;
 }
 
+#nav ul a,#footer ul a{
+  font-size: 20px;
+}#nav ul a:hover,#footer ul a:hover{
+  color: var(--light-orange);
+}
+
+#footer p{
+  font-size: 16px;
+  font-family: 'Gill Sans', sans-serif;
+}
 

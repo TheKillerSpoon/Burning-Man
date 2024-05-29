@@ -1,3 +1,48 @@
 @import url("/assets/css/nav-footer.css");
 
 
+#indhold{
+  background-image: url("/assets/img/forside-kontakt-Background.jpg");
+  background-position: right;
+  z-index: 1;
+}
+
+#indhold .woman{
+  position: absolute;
+  z-index: 0;
+  top: 100%;
+  left: 100%;
+  transform: translate(-100%, -99.9%);
+
+}
+
+#indhold h2,#indhold h3,#indhold p{
+  font-family: 'Gill Sans', sans-serif;
+  font-weight: 400;
+  line-height: 35px;
+}#indhold h3{
+  color: var(--dark-orange);
+}#indhold h1{
+  font-size: 60px;
+  text-align: center;
+  line-height: 74px;
+  margin-bottom: 60px;
+}
+
+.container{
+  padding: 45px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container article{
+  columns: 2;
+}
+
+.container .doner{
+  margin-top: auto;
+}
+
+.container img{
+  border-radius: 29px;
+}
