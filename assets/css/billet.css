@@ -1,5 +1,71 @@
 @import url("/assets/css/nav-footer.css");
 
 #indhold{
-    background-image: url("/assets/img/billet-background.jpg");
-  }
+  background-image: url("/assets/img/billet-background.jpg");
+}
+
+.container {
+  text-align: center;
+  padding: 45px 60px;
+}
+
+h1{
+  font-size: 60px;
+}h2{
+  font-size: 36px;
+  margin: 30px 0 60px 0;
+}h3{
+  font-size: 36px;
+  font-family: 'Gill Sans', sans-serif;
+  color: var(--orange);
+  font-weight: 400;
+}p{
+  font-size: 17px;
+  font-family: 'Gill Sans', sans-serif;
+}.info p{
+  max-width: 450px;
+  margin: 20px 0 50px 0;
+}.antal p{
+  font-size: 33px;
+}i{
+  font-size: 45px;
+  color: var(--black);
+}.plus, .minus{
+  width: 58px;
+  height: 58px;
+  border-radius: 29px;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.antal{
+  margin-top: 60px;
+}.uge{
+  margin: 100px 0;
+}.vip{
+  margin-bottom: 50px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 205px;
+  width: 100%;
+}
+
+
+main{
+  display: flex;
+  gap: 50px;
+}
+
+img{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translateY(-100%);
+}

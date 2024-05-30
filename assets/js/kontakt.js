@@ -9,11 +9,9 @@ let validRequrements = [nameinput, emailinput, topicinput, messageinput]
 
 form.addEventListener("submit", (e)=>{
     e.preventDefault();
-
     
     let isValid = true;
     
-
     for(index = 0; index < validRequrements.length; index++){
         if(validRequrements[index].value.trim() === ""){
             validRequrements[index].classList.add("missing")
