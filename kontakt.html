@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/assets/css/kontakt.css" />
     <title>Forside</title>
+    <script src="/assets/js/kontakt.js" defer></script>
   </head>
   <body>
     <section id="nav">
@@ -21,7 +22,28 @@
 
     <section id="indhold">
       <section class="container">
-
+        <h1>Kontakt os</h1>
+        <form>
+          <label for="name">NAVN</label>
+          <input
+          id="name"
+          placeholder="Skriv dit navn her..."
+          type="text">
+          <label for="email">E-MAIL</label>
+          <input 
+          id="email"
+          placeholder="Skriv dit mail her..."
+          type="email">
+          <label for="topic">EMNE</label>
+          <input 
+          id="topic"
+          placeholder="Hvad er dit emne..."
+          type="text">
+          <label for="message">BESKED</label>
+          <textarea id="message" placeholder="Skriv din besked her..."></textarea>
+          <button value="submit" class="btn">INDSEND</button>
+        </form>
+        <img src="/assets/img/kontakt-stor-logo.svg">
       </section>
     </section>
 

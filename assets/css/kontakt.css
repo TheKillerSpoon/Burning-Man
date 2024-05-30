@@ -1,5 +1,54 @@
 @import url("/assets/css/nav-footer.css");
 
 #indhold{
-    background-image: url("/assets/img/forside-kontakt-Background.jpg");
-  }
+  background-image: url("/assets/img/forside-kontakt-Background.jpg");
+}
+
+.container{
+  padding: 45px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1{
+  font-size: 60px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input, textarea{
+  max-width: 480px;
+  width: 100%;
+  height: 55px;
+  margin: 15px 0 45px 0;
+  border-radius: 20px;
+  color: black;
+  border: 1px solid var(--grey);
+  background-color: white;
+}textarea{
+  max-width: 675px;
+  height: 135px;
+  resize: none;
+}.btn{
+  margin-left: 482px;
+  border: none;
+}
+
+label, input, input::placeholder,textarea, textarea::placeholder{
+  font-family: 'Gill Sans', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}label{
+  padding: 0;
+}
+
+.missing{
+  
+  border: 4px solid var(--red);
+}
