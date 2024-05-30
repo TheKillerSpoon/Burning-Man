@@ -1,0 +1,33 @@
+@import url("/assets/css/nav-footer.css");
+
+#indhold{
+  background-image: url("/assets/img/galleri-background.jpg");
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 403px 551px 1fr;
+  grid-template-rows: 1fr 370px 103px 274px 166px 169px 1fr;
+  
+}
+
+.galleri-pic1{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}.galleri-pic2{
+  grid-column: 3/4;
+  grid-row: 2/4;
+}.galleri-pic3{
+  grid-column: 2/3;
+  grid-row: 3/5;
+}.galleri-pic4{
+  grid-column: 3/4;
+  grid-row: 4/6;
+}.galleri-pic5{
+  grid-column: 2/3;
+  grid-row: 5/7;
+}.btn{
+  grid-column: 3/4;
+  grid-row: 6/7;
+  margin: 40px 20px;
+}
