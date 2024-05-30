@@ -38,6 +38,10 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
+}.plus:hover, .minus:hover{
+  background-color: var(--black);
+}i:hover{
+  color: var(--white);
 }
 
 

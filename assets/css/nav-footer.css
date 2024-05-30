@@ -58,6 +58,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}.btn:hover{
+  color: var(--orange);
 }
 /* ^container / indhold^ */
 
