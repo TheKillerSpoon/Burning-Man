@@ -40,7 +40,7 @@ h1{
   align-items: center;
 }.plus:hover, .minus:hover{
   background-color: var(--black);
-}i:hover{
+}.plus:hover i, .minus:hover i{
   color: var(--white);
 }
 
